@@ -15,7 +15,7 @@ spec:
         app: fplugin
     spec:
       containers:
-      - image: gcr.io/fantasy-218701/fplugin:03cc3cdb202e3f8c67aa3c129b64a5567222f5ec
+      - image: gcr.io/fantasy-218701/fplugin:4a5a837a1cc86954fc4fa09dd2d32b3eb0f185c5
         name: fplugin
         ports:
         - containerPort: 8080
