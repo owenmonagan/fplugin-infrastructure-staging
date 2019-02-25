@@ -15,7 +15,7 @@ spec:
         app: fplugin
     spec:
       containers:
-      - image: gcr.io/fantasy-218701/fplugin:c264e47001dffe71753a22e628da3f363781ca0b
+      - image: gcr.io/fantasy-218701/fplugin-cup:48852c16f8a36f79ba825435febfdc44216977e5
         livenessProbe:
           httpGet:
             path: /alive
